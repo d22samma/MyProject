@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         // type cast from ArrayList<Mountain> to ArrayList<RecyclerViewItem>
         ArrayList<RecyclerViewItem> items = new ArrayList<>();
         for(Birds b : birds){
-            items.add(new RecyclerViewItem(b.getName(), b.getType(), b.getLocation()));
+            items.add(new RecyclerViewItem(b.getName(), b.getSize(), b.getLocation()));
             Log.d("ITEMS_IN_MOUNTAIN", "_" + items.get(items.size()-1).getName());
             Log.d("ITEMS_IN_MOUNTAIN", "_" + items.get(items.size()-1).getType());
             Log.d("ITEMS_IN_MOUNTAIN", "_" + items.get(items.size()-1).getLocation());
@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         adapter = new RecyclerViewAdapter(this, items, new RecyclerViewAdapter.OnClickListener() {
             @Override
             public void onClick(RecyclerViewItem item) {
-                Toast.makeText(MainActivity.this, item.getName(), Toast.LENGTH_LONG).show();
             }
         });
 
