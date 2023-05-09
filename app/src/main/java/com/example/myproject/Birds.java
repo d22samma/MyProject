@@ -4,6 +4,16 @@ import com.google.gson.annotations.SerializedName;
 
 public class Birds {
     private String name;
+    private String type;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     private String company;
     @SerializedName("category")
     private String size;
@@ -42,9 +52,9 @@ public class Birds {
         this.location = location;
     }
 
-
-    public Birds(String name, String company, String size, String location) {
+    public Birds(String name, String type, String company, String size, String location) {
         this.name = name;
+        this.type = type;
         this.company = company;
         this.size = size;
         this.location = location;
