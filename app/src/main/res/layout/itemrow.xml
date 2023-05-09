@@ -11,20 +11,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BirdName"
-        android:textSize="24sp" />
+        android:gravity="center"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-smallcaps" />
 
     <TextView
         android:id="@+id/BirdType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BirdType"
-        android:textSize="24sp" />
+        android:gravity="center"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-smallcaps" />
 
     <TextView
         android:id="@+id/BirdLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BirdLocation"
-        android:textSize="24sp" />
+        android:gravity="center"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-smallcaps" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
 
 </LinearLayout>
