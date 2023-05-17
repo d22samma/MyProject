@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">MyProject</string>
-    <string name="about_desc">Desc</string>
     <string name="about_title">About Us</string>
+    <string name="about_desc">
+        An application for people interested of birds.
+        An application for all ages. All interesting to learn more about birds..
+    </string>
 </resources>
