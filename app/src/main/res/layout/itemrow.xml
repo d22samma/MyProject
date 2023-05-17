@@ -10,28 +10,28 @@
         android:id="@+id/Birdname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BirdName"
         android:gravity="center"
+        android:text="BirdName"
         android:textSize="24sp"
-        app:fontFamily="sans-serif-smallcaps" />
+        app:fontFamily="@font/bungee_inline" />
 
     <TextView
         android:id="@+id/BirdType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BirdType"
         android:gravity="center"
+        android:text="BirdType"
         android:textSize="24sp"
-        app:fontFamily="sans-serif-smallcaps" />
+        app:fontFamily="@font/bungee_inline" />
 
     <TextView
         android:id="@+id/BirdLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BirdLocation"
         android:gravity="center"
+        android:text="BirdLocation"
         android:textSize="24sp"
-        app:fontFamily="sans-serif-smallcaps" />
+        app:fontFamily="@font/bungee_inline" />
 
     <Space
         android:layout_width="match_parent"
