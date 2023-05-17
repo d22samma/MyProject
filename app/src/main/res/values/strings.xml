@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyProject</string>
+    <string name="app_name">BirdExplorer</string>
     <string name="about_title">About Us</string>
     <string name="about_desc">
         An application for people interested of birds.
