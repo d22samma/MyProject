@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
             }
         });
 
-        new JsonFile(this, this).execute(JSON_File);
+        new JsonTask(this).execute(JSON_URL);
     }
     @Override
     public void onPostExecute(String json) {
